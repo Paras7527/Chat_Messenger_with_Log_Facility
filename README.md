@@ -1,20 +1,33 @@
-# 📲 Chat Messenger with Log Facility 🧑🏻‍💻
+# Chat Messenger with Log Facility
+
+## Technology:
+- **Java Programming**  
+
+---
 
 ## Project Overview
-This Chat Messenger application facilitates peer-to-peer communication through text-based chatting. Built using Java Socket Programming, it offers a lightweight and efficient platform for real-time conversations. Additionally, the application maintains a log of all chat details, ensuring a record of communication in a periodic fashion.
+This project is a Java-based peer-to-peer chat application that enables real-time text-based communication between users using **Java Socket Programming**.  
+Along with providing basic chat functionality, it also maintains a log file that records all conversation details in a periodic fashion for future reference.  
+
+The application is platform and architecture independent, running on any system with a Java Runtime Environment (JRE).  
+
+---
 
 ## Key Features
-- **Real-time Chat**: Seamless peer-to-peer text-based communication.
-- **Chat Logs**: Automatically maintains a record of all chat sessions for future reference.
-- **Platform Independence**: Runs on any operating system and architecture that supports Java.
-- **Simple and Lightweight**: A minimalistic design focused on functionality.
+- **Peer-to-Peer Communication**
+  - Uses Java sockets for direct communication between clients.  
 
-## Technologies Used
-- **Programming Language**: Java
-- **Core Concepts**: Java Socket Programming
+- **Real-Time Chat**
+  - Enables instant text-based messaging between connected peers.  
 
-## How It Works
-1. **Connection Setup**: Establishes a socket-based connection between two peers.
-2. **Message Exchange**: Sends and receives text messages in real-time.
-3. **Log Maintenance**: Automatically records chat messages in a log file, organized periodically for easy access.
+- **Chat Log Maintenance**
+  - Logs all chat history with timestamps into a file.  
+  - Provides periodic logging for organized record-keeping.  
 
+- **Cross-Platform**
+  - Runs seamlessly across different operating systems and architectures.  
+
+- **Lightweight & Extensible**
+  - Can be extended to support group chat, file sharing, or encryption.  
+
+---
